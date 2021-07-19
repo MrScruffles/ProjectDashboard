@@ -969,7 +969,7 @@ button, a {
     <div class="projects-section">
       <div class="projects-section-header">
         <p>Projects</p>
-        <p class="time">December, 12</p>
+        <p>Date/Time: <span id="datetime"></span></p>
       </div>
       <div class="projects-section-line">
         <div class="projects-status">
@@ -1385,6 +1385,8 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 //# sourceURL=pen.js
+  var dt = new Date();
+    document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
     </script>
 
   
