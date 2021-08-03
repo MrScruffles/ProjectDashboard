@@ -1371,17 +1371,17 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('.messages-section').classList.remove('show');
   });
   
-  const d = new Date();
-  const c = new Date();
-  const b = new Date();
-  const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-  document.getElementById("demo").innerHTML = days[d.getDay()] + " " + c.getDate() + ", " + b.getFullYear();
-  });
 });
         
 //# sourceURL=pen.js
   var dt = new Date();
     document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+        
+  const d = new Date();
+  const c = new Date();
+  const b = new Date();
+  const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  document.getElementById("demo").innerHTML = days[d.getDay()] + " " + c.getDate() + ", " + b.getFullYear();
     </script>
 
   
